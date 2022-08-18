@@ -1,0 +1,135 @@
+
+
+/*Importação de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+
+html{
+	background:#E5E5E5;
+}
+
+header{
+	
+	padding: 10px;
+
+}
+
+header img{
+	width: 30px;
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+/*muda a cor do placeholder */
+textarea::placeholder{
+	color:#0A3871;
+
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+	padding: 25px 0;
+	
+}
+section{
+	display: inline-block;
+	text-align: center;
+
+	height: 540px;
+	vertical-align:top;
+	margin: 0 2%;
+	
+	box-sizing: border-box;
+
+	border-radius: 10px;
+	position: relative;
+}
+
+.caixaDeTexto{
+	position: relative;
+	width: 60%;
+	padding: 15px;
+
+}
+
+textarea{
+	border: none;
+	border-radius: 30px;
+	background: none;
+	width: 90%;
+	height: 360px;
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	color:#0A3871;
+;
+}
+.caixaDeResultado{
+
+	width: 30%;
+	display: inline-block;
+	padding: 15px;
+	background:white;
+
+}
+h2{
+	font-weight: bold;
+}
+
+.caixaTextoFinal{
+	display: none;
+}
+
+.caixaNaoEncontrado{
+	margin-top: 50%;
+	
+	text-align: center;
+}
+
+.caixaNaoEncontrado img{
+	
+	width: 70%;
+}
+
+
+.btnCriptoDescripto,.btnCopiar{
+	
+    margin-top: 60px;
+}
+
+
+.btnCriptografar{
+	background: #0A3871;
+	color: #E5E5E5;
+}
+
+.btnDescriptografar,.btnCopiar{
+	background: #E5E5E5;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+}
+
+button{
+	
+	margin-left: 10px;
+	border: none;
+	border-radius: 20px;
+	width: 200px;
+	padding: 15px;
+	font-family: 'Inter', sans-serif;
+	transition: 0.3s all;
+}
+
+/*Animação dos Botões */
+
+button:hover{
+	transform: scale(1.2);
+}
+button:active{
+	transform: scale(1.0);
+}
+    
